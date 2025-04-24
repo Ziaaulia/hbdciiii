@@ -213,3 +213,53 @@ body {
     50% { opacity: 1; }
     100% { opacity: 0; }
 }
+/* Responsif dasar */
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.4rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .cake {
+    width: 140px;
+    height: 80px;
+  }
+
+  .icing {
+    height: 50px;
+  }
+
+  .candle {
+    height: 30px;
+    width: 8px;
+  }
+
+  .footer {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.1rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .cake {
+    width: 100px;
+    height: 60px;
+  }
+
+  .icing {
+    height: 40px;
+  }
+
+  .candle {
+    height: 20px;
+    width: 6px;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+  }
+}
